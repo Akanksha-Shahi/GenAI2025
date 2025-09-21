@@ -9,7 +9,8 @@ class CareerAdvisor {
         this.streamRecommendations = this.initializeStreamRecommendations();
         this.skillRecommendations = this.initializeSkillRecommendations();
         this.advancedCareerData = this.initializeAdvancedCareerData();
-        this.backendUrl = 'http://localhost:5000/api';
+        // Use environment-based URL for backend
+        this.backendUrl = window.location.origin + '/api';
         
         this.initializeEventListeners();
     }
