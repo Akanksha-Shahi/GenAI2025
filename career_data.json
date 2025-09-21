@@ -1,0 +1,507 @@
+{
+  "streams": {
+    "Science": {
+      "description": "Focus on Physics, Chemistry, Biology, and Mathematics. Perfect for students interested in research, medicine, engineering, or technology.",
+      "careers": ["Doctor", "Engineer", "Scientist", "Researcher", "Data Analyst", "Software Developer", "Biotechnologist", "Pharmacist", "Veterinarian", "Astronomer"],
+      "subjects": ["Physics", "Chemistry", "Biology", "Mathematics", "Computer Science"],
+      "skill_roadmap": {
+        "foundational": ["Mathematics", "Scientific Method", "Critical Thinking", "Problem Solving"],
+        "intermediate": ["Research Skills", "Data Analysis", "Laboratory Techniques", "Technical Writing"],
+        "advanced": ["Specialized Knowledge", "Innovation", "Leadership", "Mentoring"]
+      },
+      "future_trends": ["AI in Healthcare", "Biotechnology Advances", "Sustainable Technology", "Space Exploration"],
+      "salary_ranges": {
+        "entry": "₹3-8 LPA",
+        "mid": "₹8-20 LPA", 
+        "senior": "₹20-50 LPA"
+      }
+    },
+    "Commerce": {
+      "description": "Focus on Business Studies, Economics, Accountancy, and Mathematics. Ideal for students interested in business, finance, or entrepreneurship.",
+      "careers": ["Business Analyst", "Accountant", "Banker", "Entrepreneur", "Financial Advisor", "Marketing Manager", "Investment Banker", "Management Consultant", "Tax Advisor", "Auditor"],
+      "subjects": ["Business Studies", "Economics", "Accountancy", "Mathematics", "English"],
+      "skill_roadmap": {
+        "foundational": ["Basic Mathematics", "Communication", "Logical Thinking", "Financial Literacy"],
+        "intermediate": ["Business Analysis", "Market Research", "Financial Modeling", "Data Interpretation"],
+        "advanced": ["Strategic Planning", "Leadership", "Innovation", "Risk Management"]
+      },
+      "future_trends": ["Fintech Innovation", "ESG Investing", "Digital Banking", "Cryptocurrency"],
+      "salary_ranges": {
+        "entry": "₹2-6 LPA",
+        "mid": "₹6-15 LPA",
+        "senior": "₹15-40 LPA"
+      }
+    },
+    "Humanities": {
+      "description": "Focus on History, Geography, Political Science, Psychology, and Literature. Great for students interested in social sciences, arts, or public service.",
+      "careers": ["Journalist", "Lawyer", "Teacher", "Social Worker", "Psychologist", "Public Administrator", "Museum Curator", "Policy Analyst", "Translator", "Writer"],
+      "subjects": ["History", "Geography", "Political Science", "Psychology", "Literature"],
+      "skill_roadmap": {
+        "foundational": ["Reading Comprehension", "Writing Skills", "Cultural Awareness", "Critical Analysis"],
+        "intermediate": ["Research Methods", "Communication", "Empathy", "Cultural Sensitivity"],
+        "advanced": ["Policy Analysis", "Leadership", "Social Impact", "Advocacy"]
+      },
+      "future_trends": ["Digital Media", "Social Impact", "Cultural Preservation", "Policy Innovation"],
+      "salary_ranges": {
+        "entry": "₹2-5 LPA",
+        "mid": "₹5-12 LPA",
+        "senior": "₹12-30 LPA"
+      }
+    }
+  },
+  "skills": {
+    "soft_skills": [
+      {
+        "name": "Emotional Resilience",
+        "description": "The ability to handle stress and bounce back from setbacks",
+        "tip": "Keep a journal to track your feelings and progress. Practice mindfulness or meditation for 10 minutes daily.",
+        "icon": "fas fa-heart",
+        "development_stages": {
+          "beginner": "Practice self-awareness and basic stress management techniques",
+          "intermediate": "Develop coping strategies and emotional regulation skills",
+          "advanced": "Mentor others and build resilience in teams"
+        },
+        "resources": {
+          "books": ["The Resilience Factor by Karen Reivich", "Grit by Angela Duckworth"],
+          "courses": ["Mindfulness-Based Stress Reduction", "Emotional Intelligence Course"],
+          "activities": ["Journaling", "Meditation", "Physical Exercise", "Creative Outlets"]
+        }
+      },
+      {
+        "name": "Communication & Public Speaking",
+        "description": "Express your ideas clearly and confidently in front of others",
+        "tip": "Join a debate club, give presentations in class, or start a YouTube channel about topics you love.",
+        "icon": "fas fa-microphone",
+        "development_stages": {
+          "beginner": "Practice speaking in small groups and family gatherings",
+          "intermediate": "Deliver presentations and participate in debates",
+          "advanced": "Train others and speak at conferences or public events"
+        },
+        "resources": {
+          "books": ["Talk Like TED by Carmine Gallo", "The Art of Public Speaking by Dale Carnegie"],
+          "courses": ["Toastmasters International", "Public Speaking Workshop"],
+          "activities": ["Debate Club", "Drama/Theater", "Video Blogging", "Podcasting"]
+        }
+      },
+      {
+        "name": "Teamwork & Leadership",
+        "description": "Work effectively with others and take initiative when needed",
+        "tip": "Participate in group projects, organize a small school event, or volunteer for community service.",
+        "icon": "fas fa-users",
+        "development_stages": {
+          "beginner": "Participate actively in group activities and projects",
+          "intermediate": "Lead small projects and mentor peers",
+          "advanced": "Manage teams and drive organizational change"
+        },
+        "resources": {
+          "books": ["The 7 Habits of Highly Effective People by Stephen Covey", "Leaders Eat Last by Simon Sinek"],
+          "courses": ["Leadership Development Program", "Team Management Course"],
+          "activities": ["Student Council", "Sports Teams", "Volunteer Organizations", "Project Management"]
+        }
+      },
+      {
+        "name": "Time Management",
+        "description": "Organize your time effectively to balance studies and personal interests",
+        "tip": "Use a planner or app to organize your study schedule. Set specific goals for each day.",
+        "icon": "fas fa-clock",
+        "development_stages": {
+          "beginner": "Create daily schedules and prioritize tasks effectively",
+          "intermediate": "Balance multiple projects and deadlines efficiently",
+          "advanced": "Optimize team productivity and resource allocation"
+        },
+        "resources": {
+          "books": ["Getting Things Done by David Allen", "Deep Work by Cal Newport"],
+          "courses": ["Time Management Workshop", "Productivity Course"],
+          "activities": ["Planning Apps", "Study Groups", "Project Deadlines", "Goal Setting"]
+        }
+      }
+    ],
+    "hard_skills": [
+      {
+        "name": "Foundational Coding",
+        "description": "Basic programming skills that are valuable in almost every field",
+        "tip": "Start with block-based coding like Scratch, then try introductory Python lessons. Make it fun by creating games or solving puzzles.",
+        "icon": "fas fa-code",
+        "development_stages": {
+          "beginner": "Learn basic syntax and create simple programs",
+          "intermediate": "Build projects and solve algorithmic problems",
+          "advanced": "Develop complex applications and mentor others"
+        },
+        "resources": {
+          "books": ["Python Crash Course by Eric Matthes", "Automate the Boring Stuff by Al Sweigart"],
+          "courses": ["Codecademy Python Course", "freeCodeCamp", "Coursera Programming Specialization"],
+          "tools": ["Scratch", "Python", "JavaScript", "GitHub"]
+        }
+      },
+      {
+        "name": "Digital Arts",
+        "description": "Creative skills using digital tools and software",
+        "tip": "Explore free tools like Canva for design, GIMP for image editing, or Blender for 3D modeling if you like art.",
+        "icon": "fas fa-palette",
+        "development_stages": {
+          "beginner": "Learn basic design principles and digital tools",
+          "intermediate": "Create professional-quality designs and artwork",
+          "advanced": "Develop unique styles and teach others"
+        },
+        "resources": {
+          "books": ["The Non-Designer's Design Book by Robin Williams", "Digital Art Masterclass"],
+          "courses": ["Adobe Creative Suite Course", "Digital Art Workshop"],
+          "tools": ["Canva", "GIMP", "Blender", "Adobe Creative Suite"]
+        }
+      },
+      {
+        "name": "Financial Literacy",
+        "description": "Understanding money management and basic economics",
+        "tip": "Start with a piggy bank or simple budget. Learn about savings, investments, and how money works in the real world.",
+        "icon": "fas fa-coins",
+        "development_stages": {
+          "beginner": "Understand basic budgeting and saving principles",
+          "intermediate": "Learn about investments and financial planning",
+          "advanced": "Manage complex portfolios and advise others"
+        },
+        "resources": {
+          "books": ["Rich Dad Poor Dad by Robert Kiyosaki", "The Intelligent Investor by Benjamin Graham"],
+          "courses": ["Personal Finance Course", "Investment Basics Workshop"],
+          "tools": ["Budgeting Apps", "Investment Simulators", "Financial Calculators"]
+        }
+      },
+      {
+        "name": "Practical Knowledge",
+        "description": "Hands-on skills for building and fixing things",
+        "tip": "Try simple DIY projects like building a small circuit, making a birdhouse, or learning basic home repairs.",
+        "icon": "fas fa-tools",
+        "development_stages": {
+          "beginner": "Complete simple DIY projects and basic repairs",
+          "intermediate": "Troubleshoot and repair common issues",
+          "advanced": "Design and build complex systems"
+        },
+        "resources": {
+          "books": ["The Complete Guide to DIY Projects", "Basic Electronics for Beginners"],
+          "courses": ["DIY Workshop", "Basic Electronics Course"],
+          "tools": ["Basic Tool Set", "Electronics Kit", "Safety Equipment"]
+        }
+      }
+    ]
+  },
+  "advanced_career_data": {
+    "Technology & Programming": {
+      "careers": ["Data Scientist", "Software Engineer", "AI/ML Engineer", "Cybersecurity Analyst", "DevOps Engineer", "Product Manager"],
+      "challenges": [
+        {
+          "challenge": "AI and Automation Competition",
+          "description": "As AI becomes more sophisticated, many programming tasks may be automated, requiring programmers to focus on higher-level problem-solving and creativity.",
+          "solutions": [
+            "Focus on human-AI collaboration skills",
+            "Develop expertise in AI ethics and governance",
+            "Build strong communication and leadership skills",
+            "Stay updated with emerging technologies"
+          ]
+        },
+        {
+          "challenge": "Rapid Technology Changes",
+          "description": "Technology evolves quickly, making some skills obsolete while creating demand for new ones.",
+          "solutions": [
+            "Develop strong learning agility",
+            "Build a strong foundation in computer science principles",
+            "Focus on problem-solving rather than specific tools",
+            "Create a habit of continuous learning"
+          ]
+        }
+      ],
+      "digital_skills": [
+        {
+          "skill": "Python Programming",
+          "resources": {
+            "courses": ["Python for Everybody (Coursera)", "freeCodeCamp Python Course", "Codecademy Python 3"],
+            "books": ["Python Crash Course by Eric Matthes", "Automate the Boring Stuff by Al Sweigart"],
+            "tools": ["Jupyter Notebook", "PyCharm", "VS Code"]
+          }
+        },
+        {
+          "skill": "Data Analysis",
+          "resources": {
+            "courses": ["Data Science Specialization (Coursera)", "IBM Data Science Professional Certificate"],
+            "books": ["Python for Data Analysis by Wes McKinney", "The Art of Statistics by David Spiegelhalter"],
+            "tools": ["Pandas", "NumPy", "Matplotlib", "Tableau"]
+          }
+        }
+      ]
+    },
+    "Medicine & Healthcare": {
+      "careers": ["Doctor", "Medical Researcher", "Biomedical Engineer", "Public Health Specialist", "Nurse Practitioner", "Pharmacist"],
+      "challenges": [
+        {
+          "challenge": "AI in Medical Diagnosis",
+          "description": "AI systems are becoming increasingly capable of diagnosing diseases, potentially reducing the need for certain medical roles.",
+          "solutions": [
+            "Focus on patient care and empathy",
+            "Develop expertise in complex cases and rare diseases",
+            "Learn to work alongside AI systems",
+            "Specialize in areas requiring human judgment"
+          ]
+        },
+        {
+          "challenge": "Healthcare System Pressures",
+          "description": "Increasing patient loads and cost pressures may affect job satisfaction and career stability.",
+          "solutions": [
+            "Develop strong stress management skills",
+            "Consider specialized fields with better work-life balance",
+            "Build skills in healthcare administration",
+            "Focus on preventive and personalized medicine"
+          ]
+        }
+      ],
+      "digital_skills": [
+        {
+          "skill": "Medical Technology",
+          "resources": {
+            "courses": ["Healthcare Data Analytics (edX)", "Medical AI Applications (Coursera)"],
+            "books": ["The Digital Doctor by Robert Wachter", "Deep Medicine by Eric Topol"],
+            "tools": ["Electronic Health Records", "Medical Imaging Software", "Telemedicine Platforms"]
+          }
+        }
+      ]
+    },
+    "Business & Finance": {
+      "careers": ["Investment Banker", "Management Consultant", "Financial Analyst", "Entrepreneur", "Risk Manager", "Business Development Manager"],
+      "challenges": [
+        {
+          "challenge": "Algorithmic Trading and AI",
+          "description": "Financial markets are increasingly automated, potentially reducing demand for traditional financial analysis roles.",
+          "solutions": [
+            "Develop expertise in complex financial instruments",
+            "Focus on relationship management and client service",
+            "Learn about sustainable and impact investing",
+            "Build skills in financial technology"
+          ]
+        },
+        {
+          "challenge": "Economic Uncertainty",
+          "description": "Global economic volatility may create job insecurity in financial services.",
+          "solutions": [
+            "Diversify skills across different financial sectors",
+            "Build strong analytical and problem-solving skills",
+            "Develop expertise in emerging markets",
+            "Focus on sustainable finance and ESG investing"
+          ]
+        }
+      ],
+      "digital_skills": [
+        {
+          "skill": "Financial Modeling",
+          "resources": {
+            "courses": ["Financial Modeling (Coursera)", "Investment Banking Course (Udemy)"],
+            "books": ["Financial Modeling and Valuation by Paul Pignataro", "Investment Banking by Joshua Rosenbaum"],
+            "tools": ["Excel Advanced", "Bloomberg Terminal", "FactSet", "Power BI"]
+          }
+        }
+      ]
+    }
+  },
+  "graduation_data": {
+    "Engineering (Computer Science/IT)": {
+      "career_paths": [
+        {
+          "role": "Software Engineer",
+          "description": "Develop and maintain software applications",
+          "skills": ["Programming", "System Design", "Database Management"],
+          "salary": "₹6-15 LPA",
+          "growth": "High"
+        },
+        {
+          "role": "Data Scientist",
+          "description": "Analyze data to extract insights and build predictive models",
+          "skills": ["Python/R", "Machine Learning", "Statistics"],
+          "salary": "₹8-20 LPA",
+          "growth": "Very High"
+        },
+        {
+          "role": "DevOps Engineer",
+          "description": "Manage deployment and infrastructure",
+          "skills": ["Cloud Computing", "Docker", "Kubernetes"],
+          "salary": "₹7-18 LPA",
+          "growth": "High"
+        }
+      ],
+      "industry_insights": {
+        "trends": ["AI/ML Integration", "Cloud Computing", "Cybersecurity Focus"],
+        "challenges": ["Rapid Technology Changes", "Skill Gap", "Competition"],
+        "opportunities": ["Remote Work", "Startup Culture", "Global Market"]
+      }
+    },
+    "Medical (MBBS/MD)": {
+      "career_paths": [
+        {
+          "role": "General Practitioner",
+          "description": "Primary healthcare provider",
+          "skills": ["Clinical Diagnosis", "Patient Care", "Medical Knowledge"],
+          "salary": "₹5-12 LPA",
+          "growth": "Stable"
+        },
+        {
+          "role": "Specialist Doctor",
+          "description": "Expert in specific medical field",
+          "skills": ["Specialized Knowledge", "Advanced Procedures", "Research"],
+          "salary": "₹10-30 LPA",
+          "growth": "High"
+        },
+        {
+          "role": "Medical Researcher",
+          "description": "Conduct medical research and clinical trials",
+          "skills": ["Research Methodology", "Data Analysis", "Medical Writing"],
+          "salary": "₹6-15 LPA",
+          "growth": "Moderate"
+        }
+      ],
+      "industry_insights": {
+        "trends": ["Telemedicine", "AI in Healthcare", "Preventive Medicine"],
+        "challenges": ["Long Working Hours", "High Stress", "Regulatory Changes"],
+        "opportunities": ["Private Practice", "Hospital Administration", "Medical Technology"]
+      }
+    },
+    "Finance & Commerce (BBA/MBA Finance)": {
+      "career_paths": [
+        {
+          "role": "Financial Analyst",
+          "description": "Analyze financial data and market trends",
+          "skills": ["Financial Modeling", "Excel", "Market Analysis"],
+          "salary": "₹4-10 LPA",
+          "growth": "Moderate"
+        },
+        {
+          "role": "Investment Banker",
+          "description": "Help companies raise capital and make investments",
+          "skills": ["Financial Analysis", "Deal Making", "Risk Assessment"],
+          "salary": "₹8-25 LPA",
+          "growth": "High"
+        },
+        {
+          "role": "Risk Manager",
+          "description": "Identify and manage financial risks",
+          "skills": ["Risk Assessment", "Regulatory Knowledge", "Data Analysis"],
+          "salary": "₹6-15 LPA",
+          "growth": "High"
+        }
+      ],
+      "industry_insights": {
+        "trends": ["Fintech Innovation", "ESG Investing", "Digital Banking"],
+        "challenges": ["Market Volatility", "Regulatory Changes", "Competition"],
+        "opportunities": ["Fintech Startups", "Consulting", "International Markets"]
+      }
+    }
+  },
+  "professional_data": {
+    "Software Engineer/Developer": {
+      "required_skills": [
+        {
+          "skill": "Cloud Computing (AWS/Azure/GCP)",
+          "importance": "Critical",
+          "description": "Essential for modern software deployment and scalability",
+          "resources": ["AWS Certified Solutions Architect", "Azure Fundamentals", "Google Cloud Platform"]
+        },
+        {
+          "skill": "DevOps & CI/CD",
+          "importance": "High",
+          "description": "Automate deployment and improve development workflow",
+          "resources": ["Docker", "Kubernetes", "Jenkins", "GitLab CI"]
+        },
+        {
+          "skill": "AI/ML Integration",
+          "importance": "High",
+          "description": "Integrate AI capabilities into applications",
+          "resources": ["TensorFlow", "PyTorch", "Machine Learning APIs"]
+        }
+      ],
+      "industry_trends": [
+        "Microservices Architecture",
+        "Serverless Computing",
+        "Edge Computing",
+        "Quantum Computing Preparation"
+      ]
+    },
+    "Doctor/Medical Professional": {
+      "required_skills": [
+        {
+          "skill": "Digital Health Technologies",
+          "importance": "Critical",
+          "description": "Telemedicine, EHR systems, and digital diagnostics",
+          "resources": ["Telemedicine Platforms", "Electronic Health Records", "Digital Stethoscopes"]
+        },
+        {
+          "skill": "AI-Assisted Diagnosis",
+          "importance": "High",
+          "description": "Work with AI tools for better patient outcomes",
+          "resources": ["Medical AI Software", "Diagnostic Imaging AI", "Clinical Decision Support"]
+        },
+        {
+          "skill": "Data Analytics in Healthcare",
+          "importance": "Moderate",
+          "description": "Analyze patient data for better treatment",
+          "resources": ["Healthcare Analytics", "Population Health Management", "Clinical Research"]
+        }
+      ],
+      "industry_trends": [
+        "Precision Medicine",
+        "Wearable Health Devices",
+        "Virtual Reality in Surgery",
+        "Personalized Treatment Plans"
+      ]
+    },
+    "Lawyer/Legal Professional": {
+      "required_skills": [
+        {
+          "skill": "Legal Technology (LegalTech)",
+          "importance": "Critical",
+          "description": "Use technology to improve legal practice efficiency",
+          "resources": ["Case Management Software", "Document Automation", "Legal Research AI"]
+        },
+        {
+          "skill": "Data Privacy & Cybersecurity Law",
+          "importance": "High",
+          "description": "Navigate complex data protection regulations",
+          "resources": ["GDPR Compliance", "Cybersecurity Law", "Privacy Impact Assessments"]
+        },
+        {
+          "skill": "AI Ethics & Regulation",
+          "importance": "High",
+          "description": "Understand and advise on AI-related legal issues",
+          "resources": ["AI Governance", "Algorithmic Accountability", "Ethical AI Frameworks"]
+        }
+      ],
+      "industry_trends": [
+        "Online Dispute Resolution",
+        "Smart Contracts",
+        "AI in Legal Research",
+        "Regulatory Technology (RegTech)"
+      ]
+    },
+    "Psychologist/Therapist": {
+      "required_skills": [
+        {
+          "skill": "Digital Mental Health Platforms",
+          "importance": "Critical",
+          "description": "Provide therapy through digital platforms",
+          "resources": ["Teletherapy Platforms", "Mental Health Apps", "Virtual Reality Therapy"]
+        },
+        {
+          "skill": "AI-Assisted Assessment",
+          "importance": "High",
+          "description": "Use AI tools for psychological assessment",
+          "resources": ["Digital Assessment Tools", "Behavioral Analytics", "Predictive Mental Health"]
+        },
+        {
+          "skill": "Data Analytics in Psychology",
+          "importance": "Moderate",
+          "description": "Analyze behavioral data for insights",
+          "resources": ["Psychological Data Analysis", "Behavioral Pattern Recognition", "Outcome Measurement"]
+        }
+      ],
+      "industry_trends": [
+        "Virtual Reality Therapy",
+        "AI-Powered Mental Health Chatbots",
+        "Wearable Mental Health Monitoring",
+        "Personalized Treatment Algorithms"
+      ]
+    }
+  }
+}

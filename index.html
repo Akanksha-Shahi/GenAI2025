@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Career & Skills Advisor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-graduation-cap"></i> Career & Skills Advisor</h1>
+                <p>Discover your potential and plan your future</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Welcome Section -->
+            <section id="welcome-section" class="section active">
+                <div class="welcome-card">
+                    <h2>Welcome, Future Professional!</h2>
+                    <p>Whether you're in 9th/10th grade exploring options or 11th/12th grade planning your future, we're here to help!</p>
+                    <p>This personalized advisor will help you:</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-search"></i> Discover your interests and strengths</li>
+                        <li><i class="fas fa-route"></i> Get stream recommendations for 11th & 12th grade</li>
+                        <li><i class="fas fa-chart-line"></i> Create a personalized skill development plan</li>
+                        <li><i class="fas fa-lightbulb"></i> Learn about future career opportunities</li>
+                        <li><i class="fas fa-crystal-ball"></i> Future-proof your career with long-term planning</li>
+                    </ul>
+                    <div class="grade-selection">
+                        <h3>Choose your current stage:</h3>
+                        <div class="grade-buttons">
+                            <button id="start-junior-analysis" class="btn btn-primary">
+                                <i class="fas fa-graduation-cap"></i> 9th & 10th Grade
+                                <small>Stream Discovery & Basic Skills</small>
+                            </button>
+                            <button id="start-senior-analysis" class="btn btn-primary">
+                                <i class="fas fa-rocket"></i> 11th & 12th Grade
+                                <small>Advanced Career Planning & Future-Proofing</small>
+                            </button>
+                            <button id="start-graduation-analysis" class="btn btn-primary">
+                                <i class="fas fa-university"></i> Graduation Level
+                                <small>Degree-Specific Career Analysis</small>
+                            </button>
+                            <button id="start-professional-analysis" class="btn btn-primary">
+                                <i class="fas fa-briefcase"></i> Professional Level
+                                <small>Industry-Specific Skill Development</small>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Questionnaire Section -->
+            <section id="questionnaire-section" class="section">
+                <div class="questionnaire-card">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="question-counter">
+                        <span id="current-question">1</span> of <span id="total-questions">8</span>
+                    </div>
+                    
+                    <div class="question-container">
+                        <h3 id="question-title">Let's get to know you better!</h3>
+                        <p id="question-text">What are your favorite subjects in school?</p>
+                        
+                        <div class="options-container" id="options-container">
+                            <!-- Options will be dynamically generated -->
+                        </div>
+                        
+                        <div class="question-navigation">
+                            <button id="prev-question" class="btn btn-secondary" disabled>
+                                <i class="fas fa-arrow-left"></i> Previous
+                            </button>
+                            <button id="next-question" class="btn btn-primary" disabled>
+                                Next <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section id="results-section" class="section">
+                <div class="results-container">
+                    <h2>Your Personalized Career Analysis</h2>
+                    
+                    <!-- Stream Recommendations -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-graduation-cap"></i> Your Career Streams</h3>
+                        <div class="streams-grid" id="streams-grid">
+                            <!-- Stream recommendations will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills Roadmap -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-heart"></i> Your Soft Skills Roadmap</h3>
+                        <div class="skills-grid" id="soft-skills-grid">
+                            <!-- Soft skills will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Hard Skills Roadmap -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-tools"></i> Your Hard Skills Roadmap</h3>
+                        <div class="skills-grid" id="hard-skills-grid">
+                            <!-- Hard skills will be generated here -->
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button id="restart-analysis" class="btn btn-secondary">
+                            <i class="fas fa-redo"></i> Start Over
+                        </button>
+                        <button id="download-roadmap-junior" class="btn btn-primary">
+                            <i class="fas fa-route"></i> Download Roadmap PDF
+                        </button>
+                        <button id="download-report" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Full Report PDF
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Advanced Results Section for 11th & 12th Grade -->
+            <section id="advanced-results-section" class="section">
+                <div class="results-container">
+                    <h2>Your Advanced Career & Future Analysis</h2>
+                    
+                    <!-- Career Path -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-route"></i> Your Career Path</h3>
+                        <div id="career-path-content">
+                            <!-- Career path details will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Long-term View -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-crystal-ball"></i> The Long-Term View (Challenges & Solutions)</h3>
+                        <div id="long-term-content">
+                            <!-- Long-term analysis will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Skill Development Roadmap -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-chart-line"></i> Your Skill Development Roadmap</h3>
+                        <div id="skill-roadmap-content">
+                            <!-- Skill roadmap will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Personal Growth Plan -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-seedling"></i> Your Personal Growth Plan</h3>
+                        <div id="personal-growth-content">
+                            <!-- Personal growth plan will be generated here -->
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button id="restart-advanced-analysis" class="btn btn-secondary">
+                            <i class="fas fa-redo"></i> Start Over
+                        </button>
+                        <button id="download-roadmap-senior" class="btn btn-primary">
+                            <i class="fas fa-route"></i> Download Roadmap PDF
+                        </button>
+                        <button id="download-advanced-report" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Full Report PDF
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Graduation Results Section -->
+            <section id="graduation-results-section" class="section">
+                <div class="results-container">
+                    <h2>Your Graduation-Level Career Analysis</h2>
+                    
+                    <!-- Degree Analysis -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-university"></i> Your Degree Analysis</h3>
+                        <div id="degree-analysis-content">
+                            <!-- Degree analysis will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Career Opportunities -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-briefcase"></i> Career Opportunities</h3>
+                        <div id="career-opportunities-content">
+                            <!-- Career opportunities will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Skill Development Plan -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-tools"></i> Skill Development Plan</h3>
+                        <div id="graduation-skills-content">
+                            <!-- Skill development plan will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Industry Insights -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-chart-bar"></i> Industry Insights</h3>
+                        <div id="industry-insights-content">
+                            <!-- Industry insights will be generated here -->
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button id="restart-graduation-analysis" class="btn btn-secondary">
+                            <i class="fas fa-redo"></i> Start Over
+                        </button>
+                        <button id="download-roadmap-graduation" class="btn btn-primary">
+                            <i class="fas fa-route"></i> Download Roadmap PDF
+                        </button>
+                        <button id="download-graduation-report" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Full Report PDF
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Professional Results Section -->
+            <section id="professional-results-section" class="section">
+                <div class="results-container">
+                    <h2>Your Professional Career Analysis</h2>
+                    
+                    <!-- Current Profession Analysis -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-user-tie"></i> Your Current Profession Analysis</h3>
+                        <div id="profession-analysis-content">
+                            <!-- Profession analysis will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Required New Skills -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-star"></i> Required New Skills</h3>
+                        <div id="required-skills-content">
+                            <!-- Required skills will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Industry Trends -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-trending-up"></i> Industry Trends & Future Requirements</h3>
+                        <div id="industry-trends-content">
+                            <!-- Industry trends will be generated here -->
+                        </div>
+                    </div>
+
+                    <!-- Professional Development Plan -->
+                    <div class="results-card">
+                        <h3><i class="fas fa-graduation-cap"></i> Professional Development Plan</h3>
+                        <div id="professional-development-content">
+                            <!-- Professional development plan will be generated here -->
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <button id="restart-professional-analysis" class="btn btn-secondary">
+                            <i class="fas fa-redo"></i> Start Over
+                        </button>
+                        <button id="download-roadmap-professional" class="btn btn-primary">
+                            <i class="fas fa-route"></i> Download Roadmap PDF
+                        </button>
+                        <button id="download-professional-report" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download Full Report PDF
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Career & Skills Advisor. Helping students discover their potential.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
